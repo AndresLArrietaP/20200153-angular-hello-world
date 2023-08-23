@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-hello-world',
@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     `
   
 })
-export class HelloWorldComponent {
+export class HelloWorldComponent implements OnInit{
   constructor() { }
   
   ngOnInit() {
